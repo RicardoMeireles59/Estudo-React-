@@ -1,0 +1,19 @@
+/* CSS Modules
+
+Usar a nomenclatura componente.module.css no nome do arquivo 
+Usar a nomenclatura camel case (fraseContainer) ou snake case (frase_container) ao criar classes no CSS, NÃO UTILIZAR frase-container
+
+Crio cada classe de estilização CSS, importo esse componente CSS dentro do componente JS (import styles from './Frase/module.css'), 
+e referencio a classe usando className={classe criada}
+*/
+
+.fraseContainer {
+    background-color: #333;
+    border: 1px solid #000;
+}
+
+.fraseContent {
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+}
